@@ -1,7 +1,6 @@
 from errors.errors import IncompleteBookError
 from helpers import is_valid_isbn, is_valid_year, is_valid_num_copies
 
-
 class Book:
     def __init__(self, *args):
         for arg in args:
